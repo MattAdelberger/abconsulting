@@ -19,7 +19,7 @@
     <![endif]-->
   </head>
   <body>
-    <nav class="navbar navbar-default">
+    <nav id="navbar" class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -35,24 +35,24 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Asbestos</a></li>
-            <li><a href="#">Indoor Air Quality</a></li>
-            <li><a href="#">Contact Us</a></li>
+            <li><a href="#aboutus">About Us</a></li>
+            <li><a href="#asbestos">Asbestos</a></li>
+            <li><a href="#indoorairquality">Indoor Air Quality</a></li>
+            <li><a href="#contactus">Contact Us</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
 
     <section class="row mast-head text-center">
-      <div class="col-md-6 col-md-offset-3">
+      <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
               <h1>A&B Environmental Consulting</h1>
       <h3>Over 14 years experience dealing with
         asbestos, mold, and indoor air quality needs.</h2>
       </div>
     </section>
 
-    <section class="text-center">
+    <section id="aboutus" class="content text-center">
       <div class="container">
         <div class="row">
           <h2>About Us</h2>
@@ -63,11 +63,13 @@
       </div>
     </section>
 
-    <section class="text-center has-background">
+    <section id="asbestos" class="content text-center has-background">
       <div class="container">
         <div class="row">
           <h2>Asbestos</h2>
           <div class="col-md-6">
+            <img height="100%" width="100%" class="img-thumbnail" src="http://placehold.it/600x200" />
+            <img height="100%" width="100%" class="img-thumbnail" src="http://placehold.it/600x200" />
           </div>
           <div class="col-md-6">
             <p>Thinking of performing renovation/demolition activities in your house?  
@@ -89,7 +91,7 @@
       </div>
     </section>
 
-    <section class="text-center">
+    <section id="indoorairquality" class="content text-center">
       <div class="container">
         <div class="row">
           <h2>Indoor Air Quality</h2>
@@ -97,25 +99,38 @@
             <p>Do you want to know what maybe ailing yourself or your children? Then let us help. As part of our IAQ sampling, we will obtain information regarding your symptoms including any adverse health effects. A&B will perform an interior and exterior inspection of the house looking for areas of water intrusion and identifying the source. A&B will also collect air and tape samples if needed to identify the types of mold within the structure.  In addition, to the mold sampling, A&B will look at temperature, humidity, carbon dioxide, and potentially volatile organic compounds (VOCs). Finally, A&B will write a report with recommendations.</p>
           </div>
           <div class="col-md-6">
-
+            <img height="100%" width="100%" class="img-thumbnail" src="http://placehold.it/600x200" />
+            <img height="100%" width="100%" class="img-thumbnail" src="http://placehold.it/600x200" />
           </div>
         </div>
       </div>
     </section>
 
-    <section class="text-center has-background">
+    <section id="contactus" class="content text-center has-background">
       <div class="container">
         <div class="row">
           <h2>Contact Us</h2>
           <div class="col-md-12">
+            <address>
+              <strong>A&B Environmental Consulting</strong><br>
+              795 Folsom Ave, Suite 600<br>
+              San Francisco, CA 94107<br>
+              <abbr title="Phone">Phone:</abbr> (708)-307-4651 <br>
+              <abbr title="Phone">Email:</abbr> Roiniotisk@gmail.com
+            </address>
           </div>
         </div>
       </div>
+    </section>
+
+    <section class="footer col-md-12">
+      <p class="text-center"><small>Copyright 2015 A&B Environmental Consulting | All Rights Reserved</small></p>
     </section>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
   </body>
 </html>
