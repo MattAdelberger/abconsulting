@@ -77,6 +77,18 @@ p {
 	margin: 20px;
 }
 
+.navbar-default .navbar-toggle {
+  border-color: #fff;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #e55c00;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: #fff;
+}
+
 @media(max-width: 1430px) {
 	h1 {
 		font-size: 40px;
@@ -94,6 +106,31 @@ p {
 
 	h3 {
 		font-size: 20px;
+	}
+}
+
+@media(max-width: 767px) {
+
+	.mast-head div {
+		background: none;
+		box-shadow: none;
+		margin: 20px;	
+	}
+
+	.content {
+		padding: 20px 0;
+	}
+
+	h1 {
+		font-size: 26px;
+	}
+
+	h3 {
+		font-size: 16px;
+	}
+
+	.footer small {
+		font-size: 10px;
 	}
 }
 
